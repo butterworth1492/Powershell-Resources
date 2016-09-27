@@ -1,0 +1,18 @@
+STANDARD DISCLAIMER: Unlike most people who commit code to github, my primary motivation is simply to find a place for interesting code to live if I don't want to lose track of it. You'll find my coding styles vary from project to project and that I pay little attention to community standards or feedback. I do all that stuff at my day job. Enjoy!
+
+Sometimes, mainstream tools don't work and it's not a good idea to use popular scripts.  In that case,
+it's good to have some standby scripts of your own to perform non-trivial tasks.  
+
+The following PowerShell scripts assume that you have upload/execute capabilities on a target machine.
+
+Http-Request 
+  - Remote HTML/SOAP scraper
+  - Make single-resource HTTP/HTTPS requests to an internal host.  Also works making SOAP calls.
+
+Port-Query
+  - Port-scanner
+  - Basic functionality with adjustable delays.  Meant for stealth work, not network-raping.
+
+Invoke-Expression 
+  - Remote MSSQL queries
+  - A great resource to use after capturing credentials and connection strings. 
